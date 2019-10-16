@@ -17,79 +17,17 @@
 
     <meta content="width=device-width,initial-scale=1" name="viewport" />
 
-    <!-- =======FAVICO ICON=========== -->
-    <link
-      rel="shortcut icon"
-      href="src/media/favicon.ico"
-      type="image/x-icon"
-    />
-
     <!-- ============OTHER CSS============ -->
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="forms.css" />
-    <link rel="stylesheet" type="text/css" href="mode.css" />
-    <link rel="stylesheet" href="/about.html">
-    
-
-    <!-- =================ANIMATE CSS======================= -->
-    <link rel="stylesheet" type="text/css" href="/animate.css" />
-
-    <!--====BOOTSTRAP==== -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/bostrap.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/theme.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/hover.css"
-    />
-      <!-- ========Loging========= -->
-    <link rel="stylesheet" href="/Login.html">
-
-    <!-- ==============NORMALIZE CSS==================== -->
-    <link rel="stylesheet" type="text/css" href="normal.css" />
-
-    <!-- ===FONT AWESOME=== -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="font.css"
-    />
-
-    <!-- ==========SMOOTH SCROLL======= -->
-    <script src="/scrolls.js"></script>
-
-    <!-- ======ON REVEAL CSS====== -->
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="stylesheet"type="text/css"href="/bostrap.css"/>
     <link rel="stylesheet" type="text/css" href="/os.css" />
-
-    <!-- =================== Vue ====================== -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-    <!-- =================== jQuery ============= -->
-    <script src="/jquery.min.js"></script>
-    <!-- =================== jQuery============= -->
-
-    <link
-      href="/amita.css"
-      rel="stylesheet"
-    />
-    <link
-      href="/m.css"
-      rel="stylesheet"
-    />
-    <link
-      href="/am.css"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
+
+    <!-- ==========SCRIPTS======= -->
+    <script src="/scrolls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/jquery.min.js"></script>
 
     <!-- =======BOOTSTRAP JS======== -->
     <script src="/boostrap.js"></script>
@@ -304,7 +242,6 @@
       }
     </script>
   </head>
-
   <body data-aos-easing="ease-out-back" data-aos-delay="0">
     <script>
       AOS.init();
@@ -315,8 +252,7 @@
     <div class="background">
       <div class="opacity">
         <!-- =================================NAV BAR================================== -->
-
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top bg-primary">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -329,16 +265,12 @@
               >
                 <i class="fa fa-bars"> </i>
               </button>
-              <a class="navbar-brand" href="Devo.html"><span style="color:#f3410c">TONIMAS-</span><br><br> homedesign
-              </div>
+              <a class="navbar-brand" href="Devo.html"><span style="color:#f3410c">TONIMAS-</span>homedesign</div>
 
             
             <!-- Collect the nav links, forms, and other content for toggling -->
 
             <div
-              class="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
-            >
                 <li>
                   <ul class="nav navbar-nav navbar-right">
                     <li class="active"> 
@@ -351,14 +283,16 @@
                       </li>
                       <li>
                         <a href="Register.html"  target="blank"class="register">Register</a>
-                      <a href="Login.html"  target="blank"class="login">LOGIN</a>
+                      </li>
+                      <li>
+                        <a href="Login.html"  target="blank"class="login">LOGIN</a>
                       </li>
                     </li>
                   </ul>
                 </li>
             </div>
           </div>
-        </nav>
+          </nav>
 
         <!-- =================================NAV BAR ENDS================================== -->
         <div class="container-fluid">
@@ -655,153 +589,56 @@
     <!-- third view ends here -->
 
     <div class="jumbotron chat" id="chat">
-      <div class="container-fluid">
-        <h2 class="blink">WANT TO START A PROJECT?</h2>
-        <p class="zoom">
-          Interested in working together? We should queue up a chat. I'll buy
-          the coffee.
-        </p>
-          
-        <button
-          type="button"
-          class="btn btn-primary"
-          id="this"
-          data-toggle="modal"
-          data-target="#exampleModalCenter"
-        >
-          Lets do this!
-        </button>
-
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="exampleModalCenter"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title navbar-brand" id="exampleModalLongTitle">
-                  DevoBero WEB
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <h4 style="font-family:cursive; font-weight:bold">
-                  THANKS FOR TAKING TIME TO REACH OUT!
-                </h4>
-                <br />
-                <p class="contacts">
-                  <a
-                    href="https://api.whatsapp.com/send?phone=2349095195449&text=Hi! DevoBero. "
-                    target="_blank"
-                    class="btn btn-whatsapp"
-                    role="button"
-                    ><i class="fa fa-whatsapp"></i
-                  ></a>
-
-                  <a
-                    href="https://twitter.com//////////////"
-                    target="_blank"
-                    class="btn btn-twitter"
-                    role="button"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-
-                  <a
-                    href="https://www.linkedin.com/in/Devo-01684815b/"
-                    target="_blank"
-                    class="btn btn-linkedin"
-                    role="button"
-                    ><i class="fa fa-linkedin"></i
-                  ></a>
-
-                  <a
-                    href="https://github.com/DevoBero/Bereonwu-Agric-APP.git"
-                    target="_blank"
-                    class="btn btn-github"
-                    role="button"
-                    ><i class="fa fa-github"></i
-                  ></a>
-
-                  <a
-                    href="https://facebook.com/////////////////"
-                    target="_blank"
-                    class="btn btn-fb"
-                    role="button"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </p>
-              </div>
-
-              <hr />
-
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form_main">
-                      <h3 class="heading">LEAVE ME A MESSAGE</h3>
-                      <div class="form">
-                        <form
-                          action="https://formspree.io/bendavidosondu@gmail.com"
-                          target="_blank"
-                          method="POST"
-                        >
-                          <input
-                            type="text"
-                            required=""
-                            placeholder="Please input your Name"
-                            name="name"
-                            class="txt"
-                          />
-                          <input
-                            type="text"
-                            required=""
-                            placeholder="Please input your mobile No"
-                            name="mob"
-                            class="txt"
-                          />
-                          <input
-                            type="email"
-                            required=""
-                            placeholder="Please input your Email"
-                            name="email"
-                            class="txt"
-                          />
-                          <textarea
-                            placeholder="Your Message"
-                            name="message"
-                            type="text"
-                            class="txt_3"
-                          ></textarea>
-                          <input type="submit" name="submit" class="txt2" />
-                        </form>
-                      </div>
-                    </div>
-                  </div>
+        <div class="container-fluid">
+          <h2 class="blink">YOUR-CONFORTABLE-HOME!!!</h2>
+          <p class="zoom">
+            Interested in geeting the best home to live.
+          </p>
+            
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="this"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            WELCOME!
+          </button>
+  
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title navbar-brand" id="exampleModalLongTitle">
+                    YOUR-CONFORTABLE-HOME!!!
+                  </h5>
                 </div>
-              </div>
-
-              <div class="modal-footer">
-                <button type="button" class="btn ok" data-dismiss="modal">
-                  OK
-                </button>
+                <div class="modal-body">
+                  <h4 style="font-family:cursive; font-weight:bold">
+                    THANKS FOR TAKING TIME TO REACH US! 
+                    <br> WE OFFER YOU THE BEST 
+                    <br> CONFORT HOME.
+                  </h4>
+                </div>
+                <hr />
+                <div class="modal-footer">
+                  <button type="button" class="btn ok" data-dismiss="modal">
+                    OK
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
     <section class="site-section" style="background-color: rgba(135, 211, 73, 0.602)">
