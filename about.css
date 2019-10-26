@@ -196,6 +196,13 @@
 	text-align: center;
 }
 
+.chat {
+	font-size: 28px;
+	color: #fff;
+	text-shadow:0px 1px #f3410c;
+	animation: zoom 2s linear infinite;
+}
+
 .chat p{
 	font-size: 28px;
 	color: #fff;
